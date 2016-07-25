@@ -91,7 +91,7 @@ void ApplicationWindow::on_action_Save_triggered() {
 
 	setWindowTitle(filename);
 
-	statusBar()->showMessage(QString("File %1 saved").arg(filename), 2000);
+	statusBar()->showMessage(tr("File %1 saved").arg(filename), 2000);
 }
 
 void ApplicationWindow::on_action_Save_As_triggered() {
